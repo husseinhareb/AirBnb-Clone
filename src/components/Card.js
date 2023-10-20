@@ -3,7 +3,8 @@ import katie from "../katie-zaferes.png"
 import star from "../star.png"
 import "../../src/index.css"
 
-export default function Card(){
+export default function Card(props){
+    console.log(props)
     return(
         <div className="card">
             <img className="katie" src={katie} />
