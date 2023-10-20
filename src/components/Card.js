@@ -7,10 +7,15 @@ export default function Card(props){
     console.log(props)
     return(
         <div className="card">
-            <img className="katie" src={katie} />
-            <img className="star" src={star} />
-            <p className="rating"> 5.0 (6).USA</p>
-            <p className="description">Life lessons with Katie Zaferes</p>
+         <img src={`../images/${props.img}`} className="card--image" />
+            <div className="card--stats">
+                <img src="../images/star.png" className="card--star" />
+                <span>5.0</span>
+                <span className="gray">(6) • </span>
+                <span className="gray">USA</span>
+            </div>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p><span className="bold">From $136</span> / person</p>
         </div>
     )
 }
