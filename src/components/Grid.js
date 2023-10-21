@@ -1,4 +1,4 @@
-import react from "react"
+import React from "react"
 import grid from "../images/photo-grid.png"
 import "../../src/index.css"
 export default function Grid(){
