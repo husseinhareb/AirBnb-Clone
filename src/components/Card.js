@@ -1,5 +1,4 @@
-import react from "react"
-
+import React from "react"
 import "../../src/index.css"
 
 export default function Card(props){
