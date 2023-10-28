@@ -3,6 +3,7 @@ import "../../src/index.css"
 export default function Card(props){
     return(
         <div className="card">
+        <div class="card--badge">SOLD OUT</div>
          <img src={`/images/${props.img}`} className="card--image" />
             <div className="card--stats">
                 <img src="/images/star.png" className="card--star" />

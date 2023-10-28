@@ -14,13 +14,13 @@ export default function App(){
       country={item.location}
       title={item.title}
       price={item.price}
+      openSpots={item.openSpots }
   />
       )
   })
   return(
     <div>
       <Navbar />
-      <Grid />
       <section className="cards-list">
       {cards}
       </section>
