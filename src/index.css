@@ -58,6 +58,7 @@ section{
   flex: 0 0 auto;         
   display: flex;         
   flex-direction: column; 
+  position: relative;
 }
 
 .card--image {
