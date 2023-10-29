@@ -11,15 +11,18 @@ export default function App(){
       key={item.id}
       {...item}
   />
-      )
+    )
   })
   return(
     <div>
       <Navbar />
+      <Grid />
       <section className="cards-list">
       {cards}
       </section>
       
+      
     </div>
   )
+  
 }
